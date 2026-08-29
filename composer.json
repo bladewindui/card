@@ -1,0 +1,35 @@
+{
+    "name": "bladewindui/card",
+    "description": "BladewindUI — Card component",
+    "keywords": [
+        "laravel",
+        "blade",
+        "tailwindcss",
+        "bladewindui",
+        "card"
+    ],
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Michael K. Ocansey",
+            "email": "mike@bladewindui.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.1",
+        "bladewindui/core": "^4.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mkocansey\\Bladewind\\Card\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mkocansey\\Bladewind\\Card\\BladewindCardServiceProvider"
+            ]
+        }
+    }
+}
